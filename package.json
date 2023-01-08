@@ -4,7 +4,6 @@
   "scripts": {
     "dev": "next dev",
     "build": " next build",
-    "homebuild": "export SET NODE_OPTIONS=--openssl-legacy-provider",
     "start": "next start",
     "yeonseistart": "next start -p 4271",
     "lint": "next lint",

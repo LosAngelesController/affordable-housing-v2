@@ -850,45 +850,6 @@ var mapname = 'housingv2'
 
 
 
-map.on('dragstart', (e) => {
-  uploadMapboxTrack({
-    mapname,
-    eventtype: 'dragstart',
-    globallng: map.getCenter().lng,
-    globallat: map.getCenter().lat,
-    globalzoom: map.getZoom()
-  })
-  })
-  
-  map.on('dragend', (e) => {
-    uploadMapboxTrack({
-      mapname,
-      eventtype: 'dragend',
-      globallng: map.getCenter().lng,
-      globallat: map.getCenter().lat,
-      globalzoom: map.getZoom()
-    })
-    })
-  
-    map.on('zoomstart', (e) => {
-      uploadMapboxTrack({
-        mapname,
-        eventtype: 'dragstart',
-        globallng: map.getCenter().lng,
-        globallat: map.getCenter().lat,
-        globalzoom: map.getZoom()
-      })
-      })
-  
-      map.on('zoomend', (e) => {
-        uploadMapboxTrack({
-          mapname,
-          eventtype: 'zoomend',
-          globallng: map.getCenter().lng,
-          globallat: map.getCenter().lat,
-          globalzoom: map.getZoom()
-        })
-        })
          
 
   }, [])
@@ -908,8 +869,8 @@ map.on('dragstart', (e) => {
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 <title>Affordable Housing Covenants - 2010 to 2021 | Map</title>
       <meta property="og:type" content="website"/>
-      <meta name="twitter:site" content="@kennethmejiala" />
-        <meta name="twitter:creator" content="@kennethmejiala" />
+      <meta name="twitter:site" content="@lacontroller" />
+        <meta name="twitter:creator" content="@lacontroller" />
 <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:title" key='twittertitle' content="Affordable Housing Covenants - 2010 to 2021 | Map"></meta>
 <meta name="twitter:description"  key='twitterdesc' content="Browse and Search Affordable Housing in Los Angeles  with instructions to apply."></meta>
@@ -923,7 +884,7 @@ map.on('dragstart', (e) => {
 <meta property="og:description"        content="Browse and Search Affordable Housing in Los Angeles with instructions to apply." />
 <meta property="og:image"              content="https://data.mejiaforcontroller.com/affordablehousingpic.png" />
 
-<script defer={true} src="https://helianthus.mejiaforcontroller.com/index.js"></script>
+
       </Head>
    
 
@@ -1091,9 +1052,9 @@ window.innerHeight <= 500 && (
       />
 
    <div className={`absolute md:mx-auto z-9 bottom-2 left-1 md:left-1/2 md:transform md:-translate-x-1/2`}>
-<a href='https://MejiaForController.com/' target="_blank" rel="noreferrer">
+<a href='https://controller.lacity.gov/' target="_blank" rel="noreferrer">
   
-    <img src='/mejia-watermark-smol.png' className='h-9 md:h-10 z-40' alt="Kenneth Mejia for LA City Controller Logo"/>
+    <img src='https://controller.lacity.gov/images/KennethMejia-logo-white-elect.png' className='h-9 md:h-10 z-40' alt="LA City Controller Logo"/>
 
                   
 

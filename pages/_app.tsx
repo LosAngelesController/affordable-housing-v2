@@ -13,7 +13,7 @@ import { useEffect } from 'react';
 import { datadogRum } from '@datadog/browser-rum';
     
 const tagManagerArgs = {
-  gtmId: 'GTM-MQG62S5'
+  gtmId: 'G-8WVSTJ0T9Y'
 }
 try {
   datadogRum.init({

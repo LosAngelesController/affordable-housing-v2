@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Link from 'next/link'
 import React, { Children } from 'react'
 
-const ActiveLink = (propsparam:any) => {
+export const ActiveLink = (propsparam:any) => {
   const { children, activeClassName, ...props } = propsparam;
   const { asPath } = useRouter()
   const child = Children.only(children)
@@ -33,5 +33,3 @@ const ActiveLink = (propsparam:any) => {
     </Link>
   )
 }
-
-export default ActiveLink

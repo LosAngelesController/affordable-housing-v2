@@ -1045,11 +1045,6 @@ window.innerHeight <= 500 && (
       
  {(housingaddyopen === false || window.innerWidth >= 640) && (
    <>
-      <DisclaimerPopup
-      open={disclaimerOpen}
-      openModal={openModal}
-      closeModal={closeModal}
-      />
 
    <div className={`absolute md:mx-auto z-9 bottom-2 left-1 md:left-1/2 md:transform md:-translate-x-1/2`}>
 <a href='https://controller.lacity.gov/' target="_blank" rel="noreferrer">

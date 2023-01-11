@@ -10,7 +10,7 @@ const navigationPayroll = [
     'newtab': true
   },
   {
-    'name': "LA City Controller, Kenneth Mejia",
+    'name': "Los Angeles Controller",
     'url': "https://controller.lacity.gov/",
     'newtab': true
   }

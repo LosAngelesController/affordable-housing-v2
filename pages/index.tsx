@@ -473,7 +473,7 @@ map.on('load', () => {
    
   }
   
-  const geocoder:any = new MapboxGeocoder({
+  const geocoderoptions: any = {
     accessToken: mapboxgl.accessToken,
     mapboxgl: map,
     proximity: {
@@ -481,7 +481,9 @@ map.on('load', () => {
       latitude: 34
     },
     marker: true
-    });
+    }
+
+  const geocoder:any = new MapboxGeocoder(geocoderoptions);
   
     var colormarker = new mapboxgl.Marker({
       color: '#41ffca'
@@ -783,7 +785,6 @@ if (! document.querySelector(".mapboxgl-ctrl-top-right > .mapboxgl-ctrl-geocoder
     geocoder2
     ); 
 }
-
 
  checkHideOrShowTopRightGeocoder()
 

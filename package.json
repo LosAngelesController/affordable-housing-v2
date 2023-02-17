@@ -1,5 +1,5 @@
 {
-  "name": "parking",
+  "name": "housing",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,7 +8,7 @@
     "yeonseistart": "next start -p 4271",
     "lint": "next lint",
     "export": "next build && next export",
-    "cloudrunstart": "next start -p 8080",
+    "cloudrunstart": "next start -p 8080"
   },
   "dependencies": {
     "@babel/types": "^7.17.0",
